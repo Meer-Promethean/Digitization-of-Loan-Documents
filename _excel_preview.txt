@@ -1,0 +1,101 @@
+Workbook: Charge and Security Documents Details.xlsx
+Sheet count: 3
+Sheet names: ['Charged_Docuements', 'Ancilary Documents', 'Security_Documents']
+
+================================================================================
+SHEET: Charged_Docuements
+Total rows (including header if present): 140
+Data rows (excluding header): 139
+Header row: ('CHARGE DOCUMENTS', None)
+First 15 data rows:
+  [1] ('Main Head (Drop Down) - Parent', 'Main Head (Drop Down) - Child')
+  [2] ('MMFA - LC Sight/Usance/Acceptance ', 'MMFA - LC Sight/Usance/Acceptance ')
+  [3] ('Acceptance Receipt', 'Acceptance Receipt')
+  [4] (None, None)
+  [5] ('Agency Agreemement Murabaha', 'Agency Agreemement Murabaha')
+  [6] ('Agency Agreement', 'Agency Agreement')
+  [7] ('Alfalah Islamic Fleet Finance ', 'Alfalah Islamic Fleet Finance ')
+  [8] ('Alfalah Islamic Karobar Finance - Murabaha / Salam/Istisna', 'Alfalah Islamic Karobar Finance - Murabaha / Salam/Istisna')
+  [9] ('Alfalah Islamic Milkiat Finance ', 'Alfalah Islamic Milkiat Finance ')
+  [10] ('Board Resolution', 'Board Resolution')
+  [11] ('Confirmation /Undertaking for utilizzation of funds (LHD) - Istisna ', 'Confirmation /Undertaking for utilizzation of funds (LHD) - Istisna ')
+  [12] ('Confirmation /Undertaking for utilizzation of funds (LHD) - Murabaha', 'Confirmation /Undertaking for utilizzation of funds (LHD) - Murabaha')
+  [13] ('Cross Company Board resolution', 'Cross Company Board resolution')
+  [14] ('DAC', 'DAC')
+  [15] (None, None)
+
+================================================================================
+SHEET: Ancilary Documents
+Total rows (including header if present): 12
+Data rows (excluding header): 11
+Header row: ('CHARGE DOCUMENTS', None)
+First 15 data rows:
+  [1] ('Main Head (Drop Down) - Parent', 'Main Head (Drop Down) - Child')
+  [2] ('MOA/AOA ', 'MOA/AOA ')
+  [3] ('Form-A ', 'Form-A ')
+  [4] ('Form-9 ', 'Form-9 ')
+  [5] ('Certificate of Incorporation, COI ', 'Certificate of Incorporation, COI ')
+  [6] ('Certificate of Commencement of Business, COBM ', 'Certificate of Commencement of Business, COBM ')
+  [7] ('CNICs ', 'CNICs ')
+  [8] ('NTN Certificate', 'NTN Certificate')
+  [9] ('Stock Reports ', 'Stock Reports ')
+  [10] ('Stock Inspection Report ', 'Stock Inspection Report ')
+  [11] ('Shariah Process Flow', 'Shariah Process Flow')
+
+================================================================================
+SHEET: Security_Documents
+Total rows (including header if present): 103
+Data rows (excluding header): 102
+Header row: ('SECURITY DOCUMENTS', None)
+First 15 data rows:
+  [1] ('Main Head (Drop Down) - Parent', 'Main Head (Drop Down) - Child')
+  [2] ('Corporate Guarantee', 'Corporate Guarantee')
+  [3] ('Cross Company Guarantee', 'Cross Company Guarantee')
+  [4] ('Deed of Assignment', 'Deed of Assignment')
+  [5] ('Disclaimer Certificate', 'Disclaimer Certificate')
+  [6] ('General Power of Attorney', 'General Power of Attorney')
+  [7] ('GOP Guarantee', 'GOP Guarantee')
+  [8] ('Government Securities (SSC/DSC/RIC etc)', 'Government Securities (SSC/DSC/RIC etc)')
+  [9] ('Guarantee', 'Guarantee')
+  [10] ('Insurance Policy Documents', 'Insurance Policy Documents')
+  [11] ('Iqrar Nama', 'Iqrar Nama')
+  [12] ('Deed of Floating Charge', 'Deed of Floating Charge')
+  [13] ('Supplemental Deed of Floating Charge', 'Supplemental Deed of Floating Charge')
+  [14] ('Supplemental Deed of Floating Charge', 'Charge Certificate ')
+  [15] ('Supplemental Deed of Floating Charge', 'Form-10 ')
+
+================================================================================
+PARENT/CHILD STRUCTURE SUMMARY
+--------------------------------------------------------------------------------
+Sheet 'Charged_Docuements': 139 data rows
+  Columns (2): ['CHARGE DOCUMENTS', '']
+
+Sheet 'Ancilary Documents': 11 data rows
+  Columns (2): ['CHARGE DOCUMENTS', '']
+
+Sheet 'Security_Documents': 102 data rows
+  Columns (2): ['SECURITY DOCUMENTS', '']
+
+Inferred relationships:
+  'Charged_Docuements' vs 'Ancilary Documents': shared cols=['charge documents']; parent-like=[]
+  'Ancilary Documents' vs 'Charged_Docuements': shared cols=['charge documents']; parent-like=[]
+
+Within-sheet structure notes:
+  'Charged_Docuements': sample first cells per row: [('Main Head (Drop Down) - Parent', 'Main Head (Drop Down) - Child'), ('MMFA - LC Sight/Usance/Acceptance ', 'MMFA - LC Sight/Usance/Acceptance '), ('Acceptance Receipt', 'Acceptance Receipt'), (None, None), ('Agency Agreemement Murabaha', 'Agency Agreemement Murabaha')]
+    First-column non-empty unique values: 47 / 120 non-empty
+    Possible parent(col0)->child(col1) groups: 11 parents with multiple children
+      parent='Debit Authority' -> children=['Debit Authority  - Diminishing Musharakah', 'Debit Authority  - LC Sight/Usance/Acceptance ', 'Debit Authority  - Musawamah', 'Debit Authority (LHD) - Running Musharakah', 'Debit Authority (LHD) - Tijarah ', 'Debit Authority (LHD) -Istisna', 'Debit Authority (LHD) -Murabaha', 'Debit Authority (LHD) -Salam']
+      parent='Demand Promissory Note ' -> children=['Demand Promissory Note - Istisna', 'Demand Promissory Note - Musawamah', 'Demand Promissory Note - Salam', 'Demand Promissory Note - Tijarah']
+      parent='Facility Offer Letter' -> children=['Addendum to Facility Offer letter', 'Facility offer letter for cash backed facility', 'Facility offer letter for multiple facilities']
+      parent='Finance Agreement ' -> children=['Finance Agreement for Long Term facilities', 'Finance Agreement for cash backed facilities', 'Finance Agreement for cash backed facilities (running finance)', 'Finance Agreement for running finance', 'Finance Equivalent Risk (FER) ', 'IB-29', 'IB-7', 'Ijarah Agreement ']
+      parent='Letter of Arrangement' -> children=['Letter of Arrangement (LHD) - Diminishing Musharakah', 'Letter of Arrangement (LHD) - Istisna', 'Letter of Arrangement (LHD) - Murabaha', 'Letter of Arrangement (LHD) - Musawamah', 'Letter of Arrangement (LHD) - Running Musharakah', 'Letter of Arrangement (LHD) - Salam', 'Letter of Arrangement (LHD) - Tijarah', 'Letter of Arrangement - Ijarah ']
+  'Ancilary Documents': sample first cells per row: [('Main Head (Drop Down) - Parent', 'Main Head (Drop Down) - Child'), ('MOA/AOA ', 'MOA/AOA '), ('Form-A ', 'Form-A '), ('Form-9 ', 'Form-9 '), ('Certificate of Incorporation, COI ', 'Certificate of Incorporation, COI ')]
+    First-column non-empty unique values: 11 / 11 non-empty
+  'Security_Documents': sample first cells per row: [('Main Head (Drop Down) - Parent', 'Main Head (Drop Down) - Child'), ('Corporate Guarantee', 'Corporate Guarantee'), ('Cross Company Guarantee', 'Cross Company Guarantee'), ('Deed of Assignment', 'Deed of Assignment'), ('Disclaimer Certificate', 'Disclaimer Certificate')]
+    First-column non-empty unique values: 42 / 91 non-empty
+    Possible parent(col0)->child(col1) groups: 7 parents with multiple children
+      parent='Supplemental Deed of Floating Charge' -> children=['Affidavit ', 'Charge Certificate ', 'Form-10 ', 'Form-16', 'Supplemental Deed of Floating Charge']
+      parent=' Joint Letter of Hypothecation' -> children=['Affidavit ', 'Charge Certificate ', 'Form-10 ', 'Form-16', 'Joint Letter of Hypothecation', 'Joint Letter of Hypothecation of Specified Fixed Assets', 'Joint Memorandum Confirming Deposit of Title Deeds', 'Joint Supplemental Letter of Hypothecation']
+      parent=' Letter of Hypothecation' -> children=['Affidavit ', 'Charge Certificate ', 'Form-10 ', 'Form-16', 'Letter of Hypothecation', 'Letter of Hypothecation for Current Assets', 'Letter of Hypothecation for Receivables', 'Letter of Hypothecation for Stocks']
+      parent='Letter of Lien & Set Off' -> children=['Affidavit ', 'Charge Certificate ', 'Form-10 ', 'Form-16', 'Letter of Lien & Set Off']
+      parent='Letter of Pledge, Lien & Authority for Shares and Securities' -> children=['Affidavit ', 'Charge Certificate ', 'Form-10 ', 'Form-16', 'Letter of Pledge, Lien & Authority for Shares and Securities']
